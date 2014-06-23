@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/HydraFramework/HydraDependencyBox2D.git", :tag => "v1.0-beta" }
   s.source_files  = "ThirdParts", "ThirdParts/Box2D/**/*.{h,c,cpp}"
   s.requires_arc = false
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/hydra-dependency/ThirdParts"}
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/Box2D/ThirdParts"}
 end
