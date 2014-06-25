@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		22BDDC66195826AC0050353E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BDDC65195826AC0050353E /* Foundation.framework */; };
 		22BDDC6B195826AC0050353E /* HydraDependencyBox2D.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22BDDC6A195826AC0050353E /* HydraDependencyBox2D.h */; };
-		22BDDC6D195826AC0050353E /* HydraDependencyBox2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BDDC6C195826AC0050353E /* HydraDependencyBox2D.m */; };
+		22BDDC6D195826AC0050353E /* HydraDependencyBox2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22BDDC6C195826AC0050353E /* HydraDependencyBox2D.mm */; };
 		22BDDC74195826AC0050353E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BDDC73195826AC0050353E /* XCTest.framework */; };
 		22BDDC75195826AC0050353E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BDDC65195826AC0050353E /* Foundation.framework */; };
 		22BDDC77195826AC0050353E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BDDC76195826AC0050353E /* UIKit.framework */; };
@@ -141,7 +141,7 @@
 		22BDDC65195826AC0050353E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22BDDC69195826AC0050353E /* HydraDependencyBox2D-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HydraDependencyBox2D-Prefix.pch"; sourceTree = "<group>"; };
 		22BDDC6A195826AC0050353E /* HydraDependencyBox2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HydraDependencyBox2D.h; sourceTree = "<group>"; };
-		22BDDC6C195826AC0050353E /* HydraDependencyBox2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HydraDependencyBox2D.m; sourceTree = "<group>"; };
+		22BDDC6C195826AC0050353E /* HydraDependencyBox2D.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HydraDependencyBox2D.mm; sourceTree = "<group>"; };
 		22BDDC72195826AC0050353E /* HydraDependencyBox2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydraDependencyBox2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BDDC73195826AC0050353E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		22BDDC76195826AC0050353E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -303,7 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				22BDDC6A195826AC0050353E /* HydraDependencyBox2D.h */,
-				22BDDC6C195826AC0050353E /* HydraDependencyBox2D.m */,
+				22BDDC6C195826AC0050353E /* HydraDependencyBox2D.mm */,
 				22BDDC68195826AC0050353E /* Supporting Files */,
 			);
 			path = HydraDependencyBox2D;
@@ -625,7 +625,7 @@
 				22BDDD06195827FB0050353E /* b2ChainShape.cpp in Sources */,
 				22BDDD1C195827FB0050353E /* b2ContactManager.cpp in Sources */,
 				22BDDD18195827FB0050353E /* b2Timer.cpp in Sources */,
-				22BDDC6D195826AC0050353E /* HydraDependencyBox2D.m in Sources */,
+				22BDDC6D195826AC0050353E /* HydraDependencyBox2D.mm in Sources */,
 				22BDDD46195827FB0050353E /* b2PulleyJoint.cpp in Sources */,
 				22BDDD32195827FB0050353E /* b2EdgeAndPolygonContact.cpp in Sources */,
 				22BDDD08195827FB0050353E /* b2CircleShape.cpp in Sources */,
